@@ -90,7 +90,7 @@
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "931586b0-8aa7-437a-becf-506a3c1fedd5")
+			(uuid "0ee4bc10-79c5-4c33-8e27-b236f3b8c16c")
 			(effects
 				(font
 					(size 1 1)
@@ -102,7 +102,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d1b984ab-dd98-41f7-aa91-4f6c2fe78dd0")
+			(uuid "86ffb346-1b51-44fa-8367-1995dfb67235")
 			(effects
 				(font
 					(size 1 1)
@@ -115,7 +115,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1e7a429-d621-4fc2-8d43-f224ef824d2e")
+			(uuid "d8b8469a-8b7c-4310-910e-e1f71e499842")
 			(effects
 				(font
 					(size 1 1)
@@ -128,7 +128,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e254689-b9ed-44b2-8021-84a53f6f16fb")
+			(uuid "af2e26ce-4fb7-44ba-9828-d8678901f6b3")
 			(effects
 				(font
 					(size 1 1)
@@ -141,7 +141,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3759277f-7d18-4527-ba05-3486ea3d57ae")
+			(uuid "4a29419f-1c51-44e5-a8e1-f6d7a4c1bdba")
 			(effects
 				(font
 					(size 1 1)
@@ -162,13 +162,13 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "e305db7c-f358-4eef-870f-0ffbf8ca226d")
+			(uuid "90b90b35-2c92-4c48-9c48-9f9382593e9c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "92dd9eba-c033-4608-8d69-a86502a87469")
+			(uuid "53fb614c-d80d-4f32-a7dc-80cc6b3b3f94")
 			(effects
 				(font
 					(size 1 1)
@@ -178,69 +178,69 @@
 		)
 		(pad "1" thru_hole circle
 			(at 2.46 7)
-			(size 1.6 1.6)
-			(drill 0.9)
+			(size 3 3)
+			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "/V+")
 			(pinfunction "+")
 			(pintype "input")
-			(uuid "8f6d12f0-ff9d-4039-bb76-59d848cca083")
+			(uuid "64029041-45bc-43b1-9c55-c0547fdc96a6")
 		)
 		(pad "2" thru_hole circle
 			(at 2.46 19)
-			(size 1.6 1.6)
-			(drill 0.9)
+			(size 3 3)
+			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "/V-")
 			(pinfunction "-")
 			(pintype "input")
-			(uuid "1ec6cbf3-3d4a-4903-a36d-a630b6fe033d")
+			(uuid "a34328f8-c234-4bd7-9711-96fc17fda96e")
 		)
 		(pad "3" thru_hole circle
 			(at 2.5 31)
-			(size 1.6 1.6)
-			(drill 0.9)
+			(size 3 3)
+			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "/V+")
 			(pinfunction "+")
 			(pintype "input")
-			(uuid "d78ddc72-d408-425f-a780-64eab9009461")
+			(uuid "833eb53a-fe25-4e4a-98aa-61a06c7971db")
 		)
 		(pad "4" thru_hole circle
 			(at 49 31)
-			(size 1.6 1.6)
-			(drill 0.9)
+			(size 3 3)
+			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "/V-")
 			(pinfunction "-")
 			(pintype "input")
-			(uuid "3698ff42-48ca-49af-bb0e-4a11063f68e2")
+			(uuid "3ec21b9b-4041-4ec7-b9a0-12593018bfc0")
 		)
 		(pad "5" thru_hole circle
 			(at 48.96 19)
-			(size 1.6 1.6)
-			(drill 0.9)
+			(size 3 3)
+			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "/V+")
 			(pinfunction "+")
 			(pintype "input")
-			(uuid "d780b990-4f12-4872-b4e6-0c5d46a3da8d")
+			(uuid "ac9b9e26-0948-4356-bed7-643f59f4ad5b")
 		)
 		(pad "6" thru_hole circle
 			(at 48.96 7)
-			(size 1.6 1.6)
-			(drill 0.9)
+			(size 3 3)
+			(drill 1.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "/V-")
 			(pinfunction "-")
 			(pintype "input")
-			(uuid "1be02aa6-f21c-4af0-a864-25b393b0c302")
+			(uuid "7141e8c9-5933-4b46-bf26-fdb91b5ddc6d")
 		)
 	)
 	(footprint "aaa:hp-contacts"
@@ -599,7 +599,7 @@
 		)
 	)
 	(gr_text "–"
-		(at 17.5 31.5 0)
+		(at 17.5 31 0)
 		(layer "F.SilkS")
 		(uuid "2a8b543d-7f1d-4b22-a0f6-974416b8f1ba")
 		(effects
@@ -622,7 +622,7 @@
 		)
 	)
 	(gr_text "–"
-		(at 64 19.5 0)
+		(at 64 19 0)
 		(layer "F.SilkS")
 		(uuid "55c3ebbd-83af-4719-abaf-37af35a64db5")
 		(effects
@@ -633,7 +633,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 64 31.5 0)
+		(at 64 31 0)
 		(layer "F.SilkS")
 		(uuid "575887a5-4d64-4fb6-8ac0-213d6776d48c")
 		(effects
@@ -644,7 +644,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 17.5 19.5 0)
+		(at 17.5 19 0)
 		(layer "F.SilkS")
 		(uuid "82fb282d-359f-404e-b828-45d6549723d8")
 		(effects
@@ -655,7 +655,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 17.5 43.5 0)
+		(at 17.5 43 0)
 		(layer "F.SilkS")
 		(uuid "9c57440f-0419-46b0-a4ee-21089ead024b")
 		(effects
@@ -666,7 +666,7 @@
 		)
 	)
 	(gr_text "–"
-		(at 64 43.5 0)
+		(at 64 43 0)
 		(layer "F.SilkS")
 		(uuid "cb78106e-a75c-4aca-a0da-b25a5ffd500e")
 		(effects
@@ -677,28 +677,28 @@
 		)
 	)
 	(segment
-		(start 61.5 43.5)
+		(start 60.5 42.5)
 		(end 64 46)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "352556ec-64b1-44bf-90a7-3ddecbea9e49")
-	)
-	(segment
-		(start 61.5 24.46)
-		(end 61.5 43.5)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "370691ba-9a87-4109-a0e7-2aa19e4f6be1")
+		(uuid "178f3d53-d3d3-43a4-9228-faddea339612")
 	)
 	(segment
 		(start 63.96 22)
-		(end 61.5 24.46)
+		(end 60.5 25.46)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "a4cfa604-0ef7-4fae-812c-6655754d74d3")
+		(uuid "406290ac-f3ab-4b2f-91e6-44790126aa5e")
+	)
+	(segment
+		(start 60.5 25.46)
+		(end 60.5 42.5)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "a28a9b00-ce1a-43d7-bac6-fd4058bcde91")
 	)
 	(segment
 		(start 63.96 22)
@@ -733,28 +733,28 @@
 		(uuid "925d5e31-0b82-451b-9d07-3ec0d0192fbd")
 	)
 	(segment
-		(start 19.5 44)
+		(start 20.5 25.04)
+		(end 20.5 43)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "69057605-2a87-4798-a86b-f0ccf1d21054")
+	)
+	(segment
+		(start 17.46 22)
+		(end 20.5 25.04)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "bad27661-5422-4f42-bd1d-7bfcb21d4e8b")
+	)
+	(segment
+		(start 20.5 43)
 		(end 17.5 46)
 		(width 0.8)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "58ed7fab-f69d-48b6-8e9c-f70a1714ef6d")
-	)
-	(segment
-		(start 17.46 22)
-		(end 19.5 24.04)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "7d85536d-d66e-43a5-bbae-12b09f0ea151")
-	)
-	(segment
-		(start 19.5 24.04)
-		(end 19.5 44)
-		(width 0.8)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "c3a10754-ef9e-4178-baa0-6ef6bc2230cc")
+		(uuid "d3747ab7-61fe-421f-93c2-a77e7f637f8e")
 	)
 	(segment
 		(start 55.96 42)
