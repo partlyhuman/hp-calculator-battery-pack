@@ -2,6 +2,7 @@
 ._*
 *.lck
 \#auto_saved_files\#
+backups/
 
 # Created by https://www.toptal.com/developers/gitignore/api/kicad,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=kicad,macos
