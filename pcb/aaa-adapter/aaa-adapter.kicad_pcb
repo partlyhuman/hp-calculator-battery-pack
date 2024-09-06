@@ -384,20 +384,6 @@
 				)
 			)
 		)
-		(pad "" np_thru_hole circle
-			(at 23.72 0 180)
-			(size 3.45 3.45)
-			(drill 3.45)
-			(layers "*.Cu" "*.Mask")
-			(uuid "a759e396-c053-4e0f-8921-df19bcc9dea4")
-		)
-		(pad "" np_thru_hole circle
-			(at 23.72 23.5 180)
-			(size 3.45 3.45)
-			(drill 3.45)
-			(layers "*.Cu" "*.Mask")
-			(uuid "eccece15-35c8-4c34-bc1c-e2b6d7af1aa7")
-		)
 		(pad "1" thru_hole rect
 			(at 0 0 180)
 			(size 3 3)
@@ -435,13 +421,13 @@
 	(footprint "aaa:hp-contacts"
 		(layer "B.Cu")
 		(uuid "51024f0d-ccde-464e-9af8-d091fadff893")
-		(at 45 45.5 180)
+		(at 56 45.5 180)
 		(property "Reference" "J1"
 			(at 0 0.5 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "0ca99403-e448-4e4e-ab8a-900458298bb5")
+			(uuid "2bde1367-26e8-4455-a23a-5dc5ab4b1f03")
 			(effects
 				(font
 					(size 1 1)
@@ -454,7 +440,7 @@
 			(at 0 -1 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "922fcca9-6ebb-41e4-a644-83eb73ddfa70")
+			(uuid "e120e762-fc00-447d-9722-a2479bd2180c")
 			(effects
 				(font
 					(size 1 1)
@@ -468,7 +454,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "04610c41-4d2d-48ec-b079-1b42d2110505")
+			(uuid "7128aa79-5967-4d3c-bc83-a54d7d9b4684")
 			(effects
 				(font
 					(size 1 1)
@@ -482,7 +468,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bc20bc0a-b18f-4789-9bb6-db8a49fb60a7")
+			(uuid "bc10df96-d257-4fef-987b-26314f91a07c")
 			(effects
 				(font
 					(size 1 1)
@@ -496,7 +482,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "671f1a4e-8fa8-43a7-9484-ca3c0b0ffe05")
+			(uuid "1351b771-9bd1-41c4-8c5a-ffa0b5b4adce")
 			(effects
 				(font
 					(size 1 1)
@@ -513,7 +499,7 @@
 			(at 0 -2.5 0)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "eaf44b41-ce61-4cfd-ba66-29ee672ecabe")
+			(uuid "bd8f3bd2-f821-4b4a-81dd-62478d40b3f4")
 			(effects
 				(font
 					(size 1 1)
@@ -524,25 +510,25 @@
 		)
 		(pad "1" smd roundrect
 			(at 0 0 180)
-			(size 20 8)
+			(size 40 8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.075)
 			(net 1 "/V-")
 			(pinfunction "-")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "53608dcf-b60a-456d-92f7-c066ea171021")
+			(uuid "5ac9cce4-4fb2-43f4-94e8-45bbbb94ba96")
 		)
 		(pad "2" smd roundrect
 			(at 0 -15 180)
-			(size 20 8)
+			(size 40 8)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.075)
 			(net 2 "/V+")
 			(pinfunction "+")
 			(pintype "input")
 			(thermal_bridge_angle 45)
-			(uuid "dafc3e64-74d6-4931-b614-28bf12ec69fb")
+			(uuid "873b6af0-d625-4f0c-b610-0c3d7a5793ed")
 		)
 	)
 	(gr_arc
@@ -697,7 +683,7 @@
 		(uuid "d0ca2560-f3a1-4bb4-a7d5-594a24a85953")
 	)
 	(gr_text "+"
-		(at 33 60.5 -0)
+		(at 33.9 60.3 -0)
 		(layer "B.SilkS")
 		(uuid "17de44ba-cc80-4261-af6c-554f3ba82467")
 		(effects
@@ -720,8 +706,33 @@
 			(justify bottom mirror)
 		)
 	)
+	(gr_text "↑"
+		(at 82.1 34.7 0)
+		(layer "B.SilkS")
+		(uuid "5ab0a045-cfc9-4220-af85-854df5540df3")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.75)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "UP"
+		(at 82 38.9 0)
+		(layer "B.SilkS")
+		(uuid "67fe8208-9e3f-4ee7-8d55-4315bee2c1ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(gr_text "–"
-		(at 33 45 -0)
+		(at 33.9 45.3 -0)
 		(layer "B.SilkS")
 		(uuid "d493ba7f-5354-42ab-9a53-516de2c96cdb")
 		(effects
@@ -733,12 +744,12 @@
 		)
 	)
 	(segment
-		(start 45 45.5)
+		(start 56 45.5)
 		(end 77.675001 45.5)
 		(width 0.8)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "75f12dd0-0017-46c3-8d81-436dc35b809a")
+		(uuid "d8ead92a-d505-4dd7-9cfc-c266ca51d714")
 	)
 	(segment
 		(start 77.675001 45.5)
@@ -746,30 +757,30 @@
 		(width 0.8)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "76cba920-1e58-4c44-90d4-feee34370b6f")
+		(uuid "ff69347c-0e3e-47ab-ac29-d3f2a666bec9")
+	)
+	(segment
+		(start 57.5 62)
+		(end 56 60.5)
+		(width 0.8)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "2c7e4c9b-b277-43ed-a42d-02d6caec690e")
+	)
+	(segment
+		(start 81.475001 62)
+		(end 57.5 62)
+		(width 0.8)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "d3a4182b-1053-4c6e-8cbe-a137c596a601")
 	)
 	(segment
 		(start 82.082501 62.6075)
-		(end 78.975001 59.5)
+		(end 81.475001 62)
 		(width 0.8)
 		(layer "B.Cu")
 		(net 2)
-		(uuid "41bc2729-cbc6-4a39-a1db-f3a7bdbc3c71")
-	)
-	(segment
-		(start 78.975001 59.5)
-		(end 46 59.5)
-		(width 0.8)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "5212a3bb-f19e-4da6-a636-02b975161afc")
-	)
-	(segment
-		(start 46 59.5)
-		(end 45 60.5)
-		(width 0.8)
-		(layer "B.Cu")
-		(net 2)
-		(uuid "bdac1e56-63bb-41b8-a527-95613e94ba98")
+		(uuid "e4e0d5bb-6fea-48fb-9c92-9a2396e16cb7")
 	)
 )
