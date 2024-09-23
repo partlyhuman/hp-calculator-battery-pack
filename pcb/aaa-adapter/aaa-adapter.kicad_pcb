@@ -336,7 +336,7 @@
 			(uuid "7a55af86-cd16-4ec6-86b1-a69500516153")
 		)
 		(pad "2" thru_hole circle
-			(at 0 12.7 180)
+			(at 0 12.2 180)
 			(size 3 3)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -472,9 +472,9 @@
 		)
 	)
 	(gr_arc
-		(start 85 71)
-		(mid 84.707107 71.707107)
-		(end 84 72)
+		(start 85 70)
+		(mid 84.707107 70.707107)
+		(end 84 71)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -483,9 +483,9 @@
 		(uuid "25e2e5f5-ee21-4b3e-9a73-78519ec2b7a3")
 	)
 	(gr_arc
-		(start 84 34)
-		(mid 84.707107 34.292893)
-		(end 85 35)
+		(start 84 35)
+		(mid 84.707107 35.292893)
+		(end 85 36)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -494,8 +494,8 @@
 		(uuid "2b259817-2610-4ad4-8138-25ea07d78a63")
 	)
 	(gr_line
-		(start 33 34)
-		(end 84 34)
+		(start 33.5 35)
+		(end 84 35)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -504,8 +504,8 @@
 		(uuid "6a3968f3-2f63-4b62-8756-9379a65b54c4")
 	)
 	(gr_line
-		(start 84 72)
-		(end 33 72)
+		(start 84 71)
+		(end 33.5 71)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -514,8 +514,8 @@
 		(uuid "77c7c516-6ceb-4ebd-a798-b7003f2ec344")
 	)
 	(gr_line
-		(start 32 71)
-		(end 32 35)
+		(start 32.5 70)
+		(end 32.5 36)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -524,9 +524,9 @@
 		(uuid "99c7e53f-8542-4391-b8bc-e0ef2dad3192")
 	)
 	(gr_arc
-		(start 32 35)
-		(mid 32.292893 34.292893)
-		(end 33 34)
+		(start 32.5 36)
+		(mid 32.792893 35.292893)
+		(end 33.5 35)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -535,9 +535,9 @@
 		(uuid "a5ab4459-10dd-4992-b5d8-f9517cabf4a6")
 	)
 	(gr_arc
-		(start 33 72)
-		(mid 32.292893 71.707107)
-		(end 32 71)
+		(start 33.5 71)
+		(mid 32.792893 70.707107)
+		(end 32.5 70)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -546,8 +546,8 @@
 		(uuid "eece39f3-f59a-4148-bf60-21f92e31e626")
 	)
 	(gr_line
-		(start 85 35)
-		(end 85 71)
+		(start 85 36)
+		(end 85 70)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -636,7 +636,7 @@
 		)
 	)
 	(gr_text "Calculator battery well side"
-		(at 58.5 36.6 0)
+		(at 58.5 37.5 0)
 		(layer "B.SilkS")
 		(uuid "45cdff04-e6df-4df9-9806-d70bed6c44cf")
 		(effects
@@ -648,7 +648,7 @@
 		)
 	)
 	(gr_text "↑"
-		(at 82.1 36.8 0)
+		(at 82.1 37.5 0)
 		(layer "B.SilkS")
 		(uuid "5ab0a045-cfc9-4220-af85-854df5540df3")
 		(effects
@@ -661,7 +661,7 @@
 		)
 	)
 	(gr_text "UP"
-		(at 82 41 0)
+		(at 82 41.7 0)
 		(layer "B.SilkS")
 		(uuid "67fe8208-9e3f-4ee7-8d55-4315bee2c1ad")
 		(effects
@@ -685,20 +685,28 @@
 		)
 	)
 	(segment
-		(start 75.532501 45.5)
-		(end 82.082501 52.05)
+		(start 75 45.5)
+		(end 82.05 52.55)
 		(width 0.8)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "27336a0b-2595-4ec8-9ea4-960f4261e163")
+		(uuid "21ce4c14-11aa-4aff-8365-9dbb527f6115")
 	)
 	(segment
 		(start 56 45.5)
-		(end 75.532501 45.5)
+		(end 75 45.5)
 		(width 0.8)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "2e8cbec2-fb92-4cb9-ad35-a777d1fac893")
+		(uuid "85c6d272-54e0-4aa7-92bf-a4f19cce42d0")
+	)
+	(segment
+		(start 82.05 52.55)
+		(end 82.082501 52.55)
+		(width 0.8)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "af27d065-a5fd-4255-ba77-ce93e5f52d0a")
 	)
 	(segment
 		(start 77.832501 60.5)
